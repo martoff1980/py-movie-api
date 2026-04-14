@@ -10,6 +10,6 @@ urlpatterns = [
     path(
         "api/cinema/movies/<int:pk>/",
         views.MovieRetrieveUpdateDeleteView.as_view(),
-        name='movie-detail'
+        name="movie-detail"
     ),
 ]
